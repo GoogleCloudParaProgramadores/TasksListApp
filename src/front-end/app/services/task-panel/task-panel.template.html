@@ -1,0 +1,54 @@
+<md-expansion-panel>
+
+    <md-expansion-panel-collapsed>
+        <div class="md-title">{{$ctrl.task.title}}</span></div>
+        <div class="md-summary">{{$ctrl.task.status | taskStatus}}</div>
+        <md-expansion-panel-icon></md-expansion-panel-icon>
+    </md-expansion-panel-collapsed>
+
+    <md-expansion-panel-expanded>
+
+        <md-expansion-panel-header ng-click="$panel.collapse();">
+            <div class="md-title">{{$ctrl.task.title}}</div>
+            <div class="md-summary">{{$ctrl.task.status | taskStatus}}</div>
+            <md-expansion-panel-icon></md-expansion-panel-icon>
+        </md-expansion-panel-header>
+
+        <md-expansion-panel-content>
+            <h4>Descrição</h4>
+            <p>
+                {{$ctrl.task.description}}
+            </p>
+
+            <h4>Data</h4>
+            <p>
+                {{$ctrl.task.date | date:'dd/MM/yyyy'}}
+            </p>
+            <div layout="column" layout-align="start start" flex>
+                <md-input-container class="md-block">
+                    <md-checkbox ng-model="$ctrl.task.status"
+                                 ng-true-value="1"
+                                 ng-false-value="0"
+                                 ng-change="$ctrl.updateStatus();">
+                        Concluído
+                    </md-checkbox>
+                </md-input-container>
+            </div>
+        </md-expansion-panel-content>
+
+        <md-expansion-panel-footer>
+            <div layout="row" layout-align="end center" flex>
+
+            <md-button class="md-icon-button md-primary" ng-click="$ctrl.removeTask($panel);">
+                <ng-md-icon icon="delete" style="fill:black; position: relative;" size="20"></ng-md-icon>
+            </md-button>
+
+            <md-button class="md-icon-button md-primary" ng-click="$ctrl.editTask($event);">
+                <ng-md-icon icon="edit" style="fill:black; position: relative;" size="20"></ng-md-icon>
+            </md-button>
+            </div>
+        </md-expansion-panel-footer>
+
+    </md-expansion-panel-expanded>
+
+</md-expansion-panel>

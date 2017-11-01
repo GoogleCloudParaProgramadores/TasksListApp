@@ -1,0 +1,37 @@
+<div flex layout-fill layout="column" class="relative">
+    <md-button class="md-fab md-fab-bottom-right" aria-label="Add" ng-click="$ctrl.addTask($event);">
+        <ng-md-icon icon="add" style="fill:white; top: 5px; position: relative;" size="20"></ng-md-icon>
+    </md-button>
+
+    <md-card>
+        <md-card-content layout="row" layout-align="start center">
+            <md-input-container flex>
+                <label>Pesquisa</label>
+                <input ng-model="$ctrl.filter.query">
+            </md-input-container>
+
+            <div layout="row" layout-align="space-between center">
+                <md-select ng-model="$ctrl.filter.status" placeholder="Tipos de Tarefas" class="md-no-underline">
+                    <md-option value="1">Tarefas Concluídas</md-option>
+                    <md-option value="0">Tarefas Pendentes</md-option>
+                    <md-option value="-1">Todas as Tarefas</md-option>
+                </md-select>
+            </div>
+
+            <md-button class="md-icon-button md-primary" ng-click="$ctrl.filterTasks();">
+                <ng-md-icon icon="search" style="fill:black; position: relative;" size="20"></ng-md-icon>
+            </md-button>
+        </md-card-content>
+    </md-card>
+
+    <md-content layout="row">
+        <div flex="25"></div>
+
+        <div layout="column" flex="50">
+            <md-expansion-panel-group md-component-id="expansionPanelGroup">
+            </md-expansion-panel-group>
+        </div>
+
+        <div flex="25"></div>
+    </md-content>
+</div>

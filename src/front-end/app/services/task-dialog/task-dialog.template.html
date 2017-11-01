@@ -1,0 +1,29 @@
+<md-dialog aria-label="Creating or Editing Taks">
+    <md-content class="md-padding">
+        <form name="userForm">
+            <div layout layout-sm="column">
+                <md-input-container flex>
+                    <label>Título</label>
+                    <input ng-model="task.title">
+                </md-input-container>
+
+                <md-input-container>
+                    <label>Data</label>
+                    <md-datepicker ng-model="task.date"></md-datepicker>
+                </md-input-container>
+            </div>
+            <div layout="column">
+                <md-input-container flex>
+                    <label>Descrição</label>
+                    <textarea ng-model="task.description" columns="1"></textarea>
+                </md-input-container>
+            </div>
+        </form>
+    </md-content>
+
+    <div class="md-dialog-actions" layout="row">
+        <span flex></span>
+        <md-button ng-click="cancel()"> Cancel </md-button>
+        <md-button ng-click="answer()" class="md-primary"> Save </md-button>
+    </div>
+</md-dialog>

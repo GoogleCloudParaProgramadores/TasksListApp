@@ -1,0 +1,17 @@
+html, body, .esri-view {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/** workaround for the problem of using angular material layout with router ui element's ui-view **/
+ui-view > *, .ui-view-component-fix > *  {
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+}

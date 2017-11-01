@@ -1,0 +1,58 @@
+{
+  "name": "soho",
+  "description": "Soho Map Studio",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.9.4",
+    "npm": "3.10.7"
+  },
+  "main": "server.js",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build": "cross-env NODE_ENV=production webpack",
+    "start": "node ./dist/server.js",
+    "build:dev": "cross-env NODE_ENV=development webpack",
+    "test:dev": "cross-env NODE_ENV=development karma start karma.conf.js",
+    "start:dev": "cross-env NODE_ENV=development webpack-dev-server --inline"
+  },
+  "author": "Jefferson Lima",
+  "license": "ISC",
+  "dependencies": {
+    "@uirouter/angularjs": "latest",
+    "angular": "^1.6.5",
+    "angular-animate": "^1.6.6",
+    "angular-aria": "^1.6.6",
+    "angular-auth0": "^2.0.0",
+    "angular-material": "^1.1.5",
+    "angular-material-expansion-panel": "^0.7.2",
+    "angular-material-icons": "^0.7.1",
+    "angular-messages": "^1.6.6",
+    "angular-simple-logger": "^0.1.7",
+    "auth0-js": "^8.10.1",
+    "express": "^4.15.4",
+    "fetch-polyfill": "^0.8.2",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
+    "cross-env": "^3.1.4",
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.26.0",
+    "interpolate": "^0.1.0",
+    "raw-loader": "^0.5.1",
+    "rimraf": "^2.5.4",
+    "sinon": "^2.1.0",
+    "style-loader": "^0.14.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.14.0",
+    "angular-mocks": "1.5.10",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.0",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-spec-reporter": "0.0.26",
+    "karma-webpack": "^2.0.1"
+  }
+}
