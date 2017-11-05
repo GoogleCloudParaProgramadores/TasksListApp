@@ -5,6 +5,7 @@ require('fetch-polyfill');
 var taskRest = function() {
     self = this;
     self.token = '';
+    self.endpoint = __API_HOST__;
 
     self.save = function(task){
         var options = {
@@ -17,7 +18,7 @@ var taskRest = function() {
             }
         };
 
-        var promise = fetch('http://remote.net:8080/tasks', options).then(function(response){
+        var promise = fetch(self.endpoint + '/tasks', options).then(function(response){
             return response.json();
         });
 
@@ -34,7 +35,7 @@ var taskRest = function() {
             }
         };
 
-        var promise = fetch('http://remote.net:8080/tasks', options).then(function(response){
+        var promise = fetch(self.endpoint + '/tasks', options).then(function(response){
             return response.json();
         });
 
@@ -52,7 +53,7 @@ var taskRest = function() {
             }
         };
 
-        var promise = fetch('http://remote.net:8080/tasks' , options).then(function(response){
+        var promise = fetch(self.endpoint + '/tasks' , options).then(function(response){
             return response.json();
         });
 
@@ -70,7 +71,7 @@ var taskRest = function() {
             }
         };
 
-        var promise = fetch('http://remote.net:8080/tasks' , options).then(function(response){
+        var promise = fetch(self.endpoint + '/tasks' , options).then(function(response){
             return response.json();
         });
 
@@ -93,7 +94,7 @@ var taskRest = function() {
 
         var filterString = "?query=" + filter.query + "&status=" + filter.status;
 
-        var promise = fetch('http://remote.net:8080/tasks' + filterString, options).then(function(response){
+        var promise = fetch(self.endpoint + '/tasks' + filterString, options).then(function(response){
             return response.json();
         });
 

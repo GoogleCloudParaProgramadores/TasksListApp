@@ -70,8 +70,17 @@ var webpackconfig = {
 var PRODUCTION = process.env.NODE_ENV === 'production';
 var DEVELOPMENT = process.env.NODE_ENV === 'development';
 
+var apiHost = '';
+var auth0RedirectUri = '';
+
 if(PRODUCTION){
+    apiHost = 'http://tasklist.googlecloudparaprogramadores.co';
+    auth0RedirectUri = 'http://tasklist.googlecloudparaprogramadores.co/callback/index.html';
     webpackconfig.output.filename = 'bundle.[hash:12].min.js';
+    webpackconfig.plugins.push(new webpack.DefinePlugin({
+        '__API_HOST__': JSON.stringify(apiHost),
+        '__AUTH0_REDIRECT_URI__': JSON.stringify(auth0RedirectUri)
+    }));
     webpackconfig.plugins.push(new webpack.optimize.UglifyJsPlugin({
         compress: {
             warnings: false
@@ -81,7 +90,13 @@ if(PRODUCTION){
 }
 
 if(DEVELOPMENT){
+    apiHost = 'http://local.net:8080';
+    auth0RedirectUri = 'http://local.net:3000/callback';
     webpackconfig.output.filename = 'bundle.js';
+    webpackconfig.plugins.push(new webpack.DefinePlugin({
+        '__API_HOST__': JSON.stringify(apiHost),
+        '__AUTH0_REDIRECT_URI__': JSON.stringify(auth0RedirectUri)
+    }));
     webpackconfig.devtool = 'source-map';
     webpackconfig.plugins.push(new ExtractTextPlugin('style.css'));
 }

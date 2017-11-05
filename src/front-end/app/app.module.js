@@ -21,7 +21,7 @@ angular.module('app').config(['angularAuth0Provider', function(angularAuth0Provi
         domain: 'gcp2017.auth0.com',
         responseType: 'token id_token',
         audience: 'https://taskslistserviceapi',
-        redirectUri: 'http://local.net:3000/callback',
+        redirectUri: __AUTH0_REDIRECT_URI__,
         scope: 'openid'
     });
 }]);
