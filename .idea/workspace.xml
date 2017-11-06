@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c1c40e19-e0ce-4fea-809c-8475d145f814" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/front-end/app/app.module.js" afterPath="$PROJECT_DIR$/src/front-end/app/app.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/front-end/app/app.template.html" afterPath="$PROJECT_DIR$/src/front-end/app/app.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/front-end/app/services/task-rest/task-rest.factory.js" afterPath="$PROJECT_DIR$/src/front-end/app/services/task-rest/task-rest.factory.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,13 +13,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>__API__</find>
       <find>googlecloudparaprogramadores</find>
       <find>_webpack_require__(111)</find>
+      <find>tasklist.local</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -45,10 +42,10 @@
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/src/front-end/app/components/tasks-home/tasks-home.template.html" />
         <option value="$PROJECT_DIR$/src/front-end/app/app.template.html" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/front-end/app/services/task-rest/task-rest.factory.js" />
         <option value="$PROJECT_DIR$/src/front-end/app/app.module.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -68,7 +65,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="36" />
     <option name="y" value="44" />
     <option name="width" value="1400" />
@@ -92,6 +89,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -100,61 +98,10 @@
               <item name="TasksListApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="TasksListApp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TasksListApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TasksListApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TasksListApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TasksListApp" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TasksListApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TasksListApp" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TasksListApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TasksListApp" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-              <item name="front-end" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TasksListApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TasksListApp" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-              <item name="front-end" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TasksListApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TasksListApp" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-              <item name="front-end" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TasksListApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TasksListApp" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-              <item name="front-end" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="task-rest" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -179,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.build dev">
+  <component name="RunManager" selected="npm.run dev">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -309,26 +256,6 @@
       </scripts>
       <node-interpreter value="project" />
       <envs />
-      <method>
-        <option name="NpmBeforeRunTask" enabled="true">
-          <package-json value="$PROJECT_DIR$/package.json" />
-          <command value="run" />
-          <scripts>
-            <script value="clean" />
-          </scripts>
-          <node-interpreter value="project" />
-          <envs />
-        </option>
-        <option name="NpmBeforeRunTask" enabled="true">
-          <package-json value="$PROJECT_DIR$/package.json" />
-          <command value="run" />
-          <scripts>
-            <script value="build:dev" />
-          </scripts>
-          <node-interpreter value="project" />
-          <envs />
-        </option>
-      </method>
     </configuration>
     <configuration name="run prod" type="js.build_tools.npm" factoryName="npm">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -338,26 +265,6 @@
       </scripts>
       <node-interpreter value="project" />
       <envs />
-      <method>
-        <option name="NpmBeforeRunTask" enabled="true">
-          <package-json value="$PROJECT_DIR$/package.json" />
-          <command value="run" />
-          <scripts>
-            <script value="clean" />
-          </scripts>
-          <node-interpreter value="project" />
-          <envs />
-        </option>
-        <option name="NpmBeforeRunTask" enabled="true">
-          <package-json value="$PROJECT_DIR$/package.json" />
-          <command value="run" />
-          <scripts>
-            <script value="build" />
-          </scripts>
-          <node-interpreter value="project" />
-          <envs />
-        </option>
-      </method>
     </configuration>
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="npm.run dev" />
@@ -377,17 +284,19 @@
       <option name="presentableId" value="Default" />
       <updated>1509426382604</updated>
       <workItem from="1509604258768" duration="1854000" />
-      <workItem from="1509852947633" duration="7588000" />
+      <workItem from="1509852947633" duration="7916000" />
+      <workItem from="1509929090465" duration="1702000" />
+      <workItem from="1509935821021" duration="992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9442000" />
+    <option name="totallyTimeSpent" value="12464000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="44" width="1400" height="795" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2829233" sideWeight="0.49545455" order="0" side_tool="false" content_ui="combo" x="67" y="107" width="385" height="632" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20364584" sideWeight="0.49545455" order="0" side_tool="false" content_ui="combo" x="67" y="107" width="385" height="632" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -431,16 +340,25 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/front-end/app/app.module.js">
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#422#462#0" expanded="false" />
-            <element signature="e#551#843#0" expanded="false" />
-            <element signature="e#583#839#0" expanded="false" />
-            <element signature="e#882#1953#0" expanded="false" />
+            <element signature="e#454#694#0" expanded="false" />
+            <element signature="e#1232#1276#0" expanded="false" />
+            <element signature="e#1298#1646#0" expanded="false" />
+            <element signature="e#1660#2106#0" expanded="false" />
+            <element signature="e#1802#2100#0" expanded="false" />
+            <element signature="e#2123#2159#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front-end/app/app.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -560,7 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2108">
           <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,23 +499,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/bundle.673eb8d5802e.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="43" column="25661" lean-forward="false" selection-start-line="43" selection-start-column="25633" selection-end-line="43" selection-end-column="25661" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/bundle.673eb8d5802e.min.js" />
     <entry file="file://$PROJECT_DIR$/src/front-end/app/components/tasks/tasks.component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,17 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-238">
           <caret line="2" column="102" lean-forward="false" selection-start-line="2" selection-start-column="102" selection-end-line="2" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="54640" column="21" lean-forward="false" selection-start-line="54640" selection-start-column="13" selection-end-line="54640" selection-end-column="21" />
-          <folding>
-            <element signature="e#2108549#2108581#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -624,12 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="51" />
-          <folding>
-            <element signature="e#422#462#0" expanded="false" />
-            <element signature="e#551#843#0" expanded="false" />
-            <element signature="e#583#839#0" expanded="false" />
-            <element signature="e#882#1953#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -637,22 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="97" column="66" lean-forward="false" selection-start-line="97" selection-start-column="66" selection-end-line="97" selection-end-column="66" />
-          <folding>
-            <element signature="e#454#694#0" expanded="false" />
-            <element signature="e#1232#1276#0" expanded="false" />
-            <element signature="e#1298#1646#0" expanded="false" />
-            <element signature="e#1660#2106#0" expanded="false" />
-            <element signature="e#1802#2100#0" expanded="false" />
-            <element signature="e#2123#2159#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,20 +535,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="105" column="24" lean-forward="false" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
-          <folding>
-            <element signature="e#69#2730#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="78" column="48" lean-forward="false" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
+        <state relative-caret-position="408">
           <caret line="15" column="74" lean-forward="false" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
           <folding>
             <element signature="n#!!block;n#engines#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#dependencies#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#devDependencies#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding>
+            <element signature="e#454#694#0" expanded="false" />
+            <element signature="e#1232#1276#0" expanded="false" />
+            <element signature="e#1298#1646#0" expanded="false" />
+            <element signature="e#1660#2106#0" expanded="false" />
+            <element signature="e#1802#2100#0" expanded="false" />
+            <element signature="e#2123#2159#0" expanded="false" />
           </folding>
         </state>
       </provider>
